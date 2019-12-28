@@ -1,0 +1,4 @@
+/home/hendy/projects/learn/cmake/build/CMakeFiles/edit_cache.dir
+/home/hendy/projects/learn/cmake/build/CMakeFiles/say-hello.dir
+/home/hendy/projects/learn/cmake/build/CMakeFiles/rebuild_cache.dir
+/home/hendy/projects/learn/cmake/build/CMakeFiles/cmake-good.dir

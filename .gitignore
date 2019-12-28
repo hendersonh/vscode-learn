@@ -1,0 +1,10 @@
+Makefile
+build.conf
+build_env.*
+searchPath.*
+toolchain.cmake
+InstallArea
+*.pyc
+*~
+build.*
+

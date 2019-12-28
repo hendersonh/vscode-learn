@@ -1,0 +1,1 @@
+/usr/bin/c89-gcc -g  -rdynamic CMakeFiles/linklist.dir/linkList.c.o  -o linklist 

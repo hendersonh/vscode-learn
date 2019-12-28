@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/cmake-good.dir/main.cpp.o  -o cmake-good  libsay-hello.a 
