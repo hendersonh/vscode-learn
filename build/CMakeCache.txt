@@ -335,6 +335,18 @@ learning_BINARY_DIR:STATIC=/home/hendy/projects/learn/build
 //Value Computed by CMake
 learning_SOURCE_DIR:STATIC=/home/hendy/projects/learn
 
+//Value Computed by CMake
+linklist2_BINARY_DIR:STATIC=/home/hendy/projects/learn/build/linklist
+
+//Value Computed by CMake
+linklist2_SOURCE_DIR:STATIC=/home/hendy/projects/learn/linklist
+
+//Value Computed by CMake
+linklist_BINARY_DIR:STATIC=/home/hendy/projects/learn/build/linklist
+
+//Value Computed by CMake
+linklist_SOURCE_DIR:STATIC=/home/hendy/projects/learn/linklist
+
 
 ########################
 # INTERNAL cache entries
@@ -446,7 +458,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

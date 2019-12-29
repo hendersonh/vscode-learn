@@ -53,19 +53,18 @@ CMAKE_BINARY_DIR = /home/hendy/projects/learn/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/linklist.dir/all
 all: CMakeFiles/learning.dir/all
 all: CMakeFiles/lenOfStr.dir/all
+all: linklist/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: linklist/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/linklist.dir/clean
 clean: CMakeFiles/learning.dir/clean
 clean: CMakeFiles/ContinuousSubmit.dir/clean
 clean: CMakeFiles/lenOfStr.dir/clean
@@ -96,35 +95,27 @@ clean: CMakeFiles/NightlySubmit.dir/clean
 clean: CMakeFiles/ExperimentalSubmit.dir/clean
 clean: CMakeFiles/ContinuousStart.dir/clean
 clean: CMakeFiles/ContinuousUpdate.dir/clean
+clean: linklist/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/linklist.dir
+# Directory level rules for directory linklist
 
-# All Build rule for target.
-CMakeFiles/linklist.dir/all:
-	$(MAKE) -f CMakeFiles/linklist.dir/build.make CMakeFiles/linklist.dir/depend
-	$(MAKE) -f CMakeFiles/linklist.dir/build.make CMakeFiles/linklist.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hendy/projects/learn/build/CMakeFiles --progress-num=5,6 "Built target linklist"
-.PHONY : CMakeFiles/linklist.dir/all
+# Recursive "all" directory target.
+linklist/all: linklist/CMakeFiles/linklist2.dir/all
 
-# Build rule for subdir invocation for target.
-CMakeFiles/linklist.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hendy/projects/learn/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/linklist.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hendy/projects/learn/build/CMakeFiles 0
-.PHONY : CMakeFiles/linklist.dir/rule
+.PHONY : linklist/all
 
-# Convenience name for target.
-linklist: CMakeFiles/linklist.dir/rule
+# Recursive "preinstall" directory target.
+linklist/preinstall:
 
-.PHONY : linklist
+.PHONY : linklist/preinstall
 
-# clean rule for target.
-CMakeFiles/linklist.dir/clean:
-	$(MAKE) -f CMakeFiles/linklist.dir/build.make CMakeFiles/linklist.dir/clean
-.PHONY : CMakeFiles/linklist.dir/clean
+# Recursive "clean" directory target.
+linklist/clean: linklist/CMakeFiles/linklist2.dir/clean
+
+.PHONY : linklist/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/learning.dir
@@ -935,6 +926,33 @@ ContinuousUpdate: CMakeFiles/ContinuousUpdate.dir/rule
 CMakeFiles/ContinuousUpdate.dir/clean:
 	$(MAKE) -f CMakeFiles/ContinuousUpdate.dir/build.make CMakeFiles/ContinuousUpdate.dir/clean
 .PHONY : CMakeFiles/ContinuousUpdate.dir/clean
+
+#=============================================================================
+# Target rules for target linklist/CMakeFiles/linklist2.dir
+
+# All Build rule for target.
+linklist/CMakeFiles/linklist2.dir/all:
+	$(MAKE) -f linklist/CMakeFiles/linklist2.dir/build.make linklist/CMakeFiles/linklist2.dir/depend
+	$(MAKE) -f linklist/CMakeFiles/linklist2.dir/build.make linklist/CMakeFiles/linklist2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hendy/projects/learn/build/CMakeFiles --progress-num=5,6,7,8,9,10 "Built target linklist2"
+.PHONY : linklist/CMakeFiles/linklist2.dir/all
+
+# Build rule for subdir invocation for target.
+linklist/CMakeFiles/linklist2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hendy/projects/learn/build/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 linklist/CMakeFiles/linklist2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hendy/projects/learn/build/CMakeFiles 0
+.PHONY : linklist/CMakeFiles/linklist2.dir/rule
+
+# Convenience name for target.
+linklist2: linklist/CMakeFiles/linklist2.dir/rule
+
+.PHONY : linklist2
+
+# clean rule for target.
+linklist/CMakeFiles/linklist2.dir/clean:
+	$(MAKE) -f linklist/CMakeFiles/linklist2.dir/build.make linklist/CMakeFiles/linklist2.dir/clean
+.PHONY : linklist/CMakeFiles/linklist2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

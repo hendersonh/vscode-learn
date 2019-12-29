@@ -1,11 +1,6 @@
 [
 {
   "directory": "/home/hendy/projects/learn/build",
-  "command": "/usr/bin/c89-gcc   -g   -o CMakeFiles/linklist.dir/linkList.c.o   -c /home/hendy/projects/learn/linkList.c",
-  "file": "/home/hendy/projects/learn/linkList.c"
-},
-{
-  "directory": "/home/hendy/projects/learn/build",
   "command": "/usr/bin/c++    -g   -o CMakeFiles/learning.dir/main.cpp.o -c /home/hendy/projects/learn/main.cpp",
   "file": "/home/hendy/projects/learn/main.cpp"
 },
@@ -13,5 +8,30 @@
   "directory": "/home/hendy/projects/learn/build",
   "command": "/usr/bin/c89-gcc   -g   -o CMakeFiles/lenOfStr.dir/lenOfStr.c.o   -c /home/hendy/projects/learn/lenOfStr.c",
   "file": "/home/hendy/projects/learn/lenOfStr.c"
+},
+{
+  "directory": "/home/hendy/projects/learn/build/linklist",
+  "command": "/usr/bin/c89-gcc   -g   -o CMakeFiles/linklist2.dir/Delete.c.o   -c /home/hendy/projects/learn/linklist/Delete.c",
+  "file": "/home/hendy/projects/learn/linklist/Delete.c"
+},
+{
+  "directory": "/home/hendy/projects/learn/build/linklist",
+  "command": "/usr/bin/c89-gcc   -g   -o CMakeFiles/linklist2.dir/Find.c.o   -c /home/hendy/projects/learn/linklist/Find.c",
+  "file": "/home/hendy/projects/learn/linklist/Find.c"
+},
+{
+  "directory": "/home/hendy/projects/learn/build/linklist",
+  "command": "/usr/bin/c89-gcc   -g   -o CMakeFiles/linklist2.dir/Insert.c.o   -c /home/hendy/projects/learn/linklist/Insert.c",
+  "file": "/home/hendy/projects/learn/linklist/Insert.c"
+},
+{
+  "directory": "/home/hendy/projects/learn/build/linklist",
+  "command": "/usr/bin/c89-gcc   -g   -o CMakeFiles/linklist2.dir/Print.c.o   -c /home/hendy/projects/learn/linklist/Print.c",
+  "file": "/home/hendy/projects/learn/linklist/Print.c"
+},
+{
+  "directory": "/home/hendy/projects/learn/build/linklist",
+  "command": "/usr/bin/c89-gcc   -g   -o CMakeFiles/linklist2.dir/main.c.o   -c /home/hendy/projects/learn/linklist/main.c",
+  "file": "/home/hendy/projects/learn/linklist/main.c"
 }
 ]
