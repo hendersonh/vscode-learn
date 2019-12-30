@@ -1,1 +1,0 @@
-/usr/bin/c89-gcc -g  -rdynamic CMakeFiles/lenOfStr.dir/lenOfStr.c.o  -o lenOfStr 

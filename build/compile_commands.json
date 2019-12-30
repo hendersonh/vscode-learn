@@ -5,33 +5,28 @@
   "file": "/home/hendy/projects/learn/main.cpp"
 },
 {
-  "directory": "/home/hendy/projects/learn/build",
-  "command": "/usr/bin/c89-gcc   -g   -o CMakeFiles/lenOfStr.dir/lenOfStr.c.o   -c /home/hendy/projects/learn/lenOfStr.c",
-  "file": "/home/hendy/projects/learn/lenOfStr.c"
+  "directory": "/home/hendy/projects/learn/build/linklist",
+  "command": "/usr/bin/c89-gcc  -I/home/hendy/projects/learn/linklist/include  -g   -o CMakeFiles/_ll.dir/src/Delete.c.o   -c /home/hendy/projects/learn/linklist/src/Delete.c",
+  "file": "/home/hendy/projects/learn/linklist/src/Delete.c"
 },
 {
   "directory": "/home/hendy/projects/learn/build/linklist",
-  "command": "/usr/bin/c89-gcc   -g   -o CMakeFiles/linklist2.dir/Delete.c.o   -c /home/hendy/projects/learn/linklist/Delete.c",
-  "file": "/home/hendy/projects/learn/linklist/Delete.c"
+  "command": "/usr/bin/c89-gcc  -I/home/hendy/projects/learn/linklist/include  -g   -o CMakeFiles/_ll.dir/src/Find.c.o   -c /home/hendy/projects/learn/linklist/src/Find.c",
+  "file": "/home/hendy/projects/learn/linklist/src/Find.c"
 },
 {
   "directory": "/home/hendy/projects/learn/build/linklist",
-  "command": "/usr/bin/c89-gcc   -g   -o CMakeFiles/linklist2.dir/Find.c.o   -c /home/hendy/projects/learn/linklist/Find.c",
-  "file": "/home/hendy/projects/learn/linklist/Find.c"
+  "command": "/usr/bin/c89-gcc  -I/home/hendy/projects/learn/linklist/include  -g   -o CMakeFiles/_ll.dir/src/Insert.c.o   -c /home/hendy/projects/learn/linklist/src/Insert.c",
+  "file": "/home/hendy/projects/learn/linklist/src/Insert.c"
 },
 {
   "directory": "/home/hendy/projects/learn/build/linklist",
-  "command": "/usr/bin/c89-gcc   -g   -o CMakeFiles/linklist2.dir/Insert.c.o   -c /home/hendy/projects/learn/linklist/Insert.c",
-  "file": "/home/hendy/projects/learn/linklist/Insert.c"
+  "command": "/usr/bin/c89-gcc  -I/home/hendy/projects/learn/linklist/include  -g   -o CMakeFiles/_ll.dir/src/Print.c.o   -c /home/hendy/projects/learn/linklist/src/Print.c",
+  "file": "/home/hendy/projects/learn/linklist/src/Print.c"
 },
 {
   "directory": "/home/hendy/projects/learn/build/linklist",
-  "command": "/usr/bin/c89-gcc   -g   -o CMakeFiles/linklist2.dir/Print.c.o   -c /home/hendy/projects/learn/linklist/Print.c",
-  "file": "/home/hendy/projects/learn/linklist/Print.c"
-},
-{
-  "directory": "/home/hendy/projects/learn/build/linklist",
-  "command": "/usr/bin/c89-gcc   -g   -o CMakeFiles/linklist2.dir/main.c.o   -c /home/hendy/projects/learn/linklist/main.c",
+  "command": "/usr/bin/c89-gcc  -I/home/hendy/projects/learn/linklist/include  -g   -o CMakeFiles/ll.dir/main.c.o   -c /home/hendy/projects/learn/linklist/main.c",
   "file": "/home/hendy/projects/learn/linklist/main.c"
 }
 ]

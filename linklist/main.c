@@ -10,10 +10,10 @@ int main(){
         Insert(*(names+i));
     } 
 
-    Delete("Elvis"); 
+    /*Delete("Elvis"); 
     Delete("Kenneth"); 
     Delete("David"); 
-    Delete("Gwendoly"); 
+    Delete("Gwendoly"); */
     Print();
    /*find("Hendy") == true ? printf("Data: is located\n") : printf("Data: is not located\n");
   */ 
