@@ -1,7 +1,7 @@
 #include "Linklist.h"
 
 int main(){
-    static char *names[]= {"Hendy", "Elvis", "Kenneth", "David", "Gwendoly", "Mark"};
+    static char *names[]= {"Hood", "Elvis", "Kenneth", "David", "Gwendoly", "Mark"};
     int count = sizeof(names) / sizeof(names[0]);
     int i;
     

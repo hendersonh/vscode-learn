@@ -1,8 +1,16 @@
+/home/hendy/projects/learn/build/CMakeFiles/install/strip.dir
+/home/hendy/projects/learn/build/CMakeFiles/install/local.dir
+/home/hendy/projects/learn/build/CMakeFiles/install.dir
+/home/hendy/projects/learn/build/CMakeFiles/list_install_components.dir
 /home/hendy/projects/learn/build/CMakeFiles/rebuild_cache.dir
 /home/hendy/projects/learn/build/CMakeFiles/learning.dir
 /home/hendy/projects/learn/build/CMakeFiles/package.dir
 /home/hendy/projects/learn/build/CMakeFiles/package_source.dir
 /home/hendy/projects/learn/build/CMakeFiles/edit_cache.dir
+/home/hendy/projects/learn/build/linklist/CMakeFiles/install/strip.dir
+/home/hendy/projects/learn/build/linklist/CMakeFiles/install/local.dir
+/home/hendy/projects/learn/build/linklist/CMakeFiles/install.dir
+/home/hendy/projects/learn/build/linklist/CMakeFiles/list_install_components.dir
 /home/hendy/projects/learn/build/linklist/CMakeFiles/edit_cache.dir
 /home/hendy/projects/learn/build/linklist/CMakeFiles/rebuild_cache.dir
 /home/hendy/projects/learn/build/linklist/CMakeFiles/_ll.dir

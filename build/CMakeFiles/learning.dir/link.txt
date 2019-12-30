@@ -1,1 +1,1 @@
-/usr/bin/c++  -g  -rdynamic CMakeFiles/learning.dir/main.cpp.o  -o learning 
+/usr/bin/c++    -rdynamic CMakeFiles/learning.dir/main.cpp.o  -o learning 
